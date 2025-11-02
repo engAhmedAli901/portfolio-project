@@ -1,0 +1,307 @@
+/* font-family: "Montserrat", sans-serif; */
+/* font-family: "Poppins", sans-serif; */
+html{
+  scroll-behavior: smooth !important;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+#home {
+  background: linear-gradient(rgba(0, 0, 0, 0.6)), url(../imgs/imgs/bg.jpg);
+  background-size: cover;
+}
+.navbar {
+  background-color: transparent !important;
+  position: absolute !important;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+}
+.navbar a {
+  color: #fff !important;
+}
+.container .navbar-brand {
+  font-family: "Montserrat", sans-serif;
+}
+#home h1 {
+  font-size: 50px;
+  font-weight: 800;
+}
+#home h6 {
+  font-size: 30px;
+  font-weight: lighter;
+}
+.icons .item i .fa-brands {
+  background-color: tomato !important;
+}
+#about .inner .dotted {
+  z-index: -1;
+  width: 90%;
+  position: absolute;
+  top: 25%;
+  right: 80px;
+  background-image: url(../imgs/imgs/dots.png);
+  background-repeat: repeat;
+  padding-bottom: 90px;
+  padding-left: 30px;
+  height: 80%;
+}
+.web-p {
+  height: 25px;
+  background-color: #f6f6f6;
+  width: 95%;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.web-c {
+  height: 25px;
+  background-color: #1c1c1c;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.inner_2 .b_1,
+.b_2 ,#sbm {
+  border-radius: 5px;
+  border-color: transparent;
+  transition: all 0.5s;
+}
+.inner_2 .b_1:hover {
+  background-color: #fff !important;
+  color: black !important;
+}
+.inner_2 .b_2:hover {
+  color: #fff !important;
+  background-color: black !important;
+}
+#services {
+  background-color: #f7f7f7;
+}
+#services .dotted {
+    margin: auto auto;
+    width: 13%;
+    height: 25px;
+  background-image: url(../imgs/imgs/dots.png);
+  background-repeat: repeat;
+  position: absolute;
+  top: 70%;
+  left: 43.5%;
+}
+#services header h2{
+    z-index: 5;
+}
+#icon{
+    background-color:#f7f7f7 ;
+    transition: all 0.5s;
+}
+#services .card:hover #icon{
+    color: #fff !important;
+    background-color: black !important;
+}
+ #services .card{
+    filter: drop-shadow(0 2px 1px rgba(0,0,0,0.1));
+    height: 300px !important;
+}
+#portfolio .dotted {
+    margin: auto auto;
+    width: 13%;
+    height: 25px;
+  background-image: url(../imgs/imgs/dots.png);
+  background-repeat: repeat;
+  position: absolute;
+  top: 70%;
+  left: 43.5%;
+}
+.inner .layer{
+  width: 95%;
+  height: 90% !important;
+  position: absolute;
+  top: 20px;
+}
+#layer h5{
+  font-size: smaller !important;
+}
+#layer{
+  transition: all 0.5s;
+}
+#layer .icons{
+  transition: all .5s;
+}
+#portfolio .inner:hover #layer{
+  opacity: 90% !important;
+  top: 10px;
+}
+#portfolio .inner:hover #layer .icons{
+  margin-top: 5px !important;
+}
+.svg-inline--fa.fa-xs:hover{
+  border: black solid 1px !important;
+  background-color: #fff !important;
+  color: black !important;
+}
+#portfolio .inner{
+  width: 90%;
+}
+#Testimonials .dotted ,#our_team .dotted,#contact .dotted{
+  margin: auto auto;
+    width: 18%;
+    height: 25px;
+  background-image: url(../imgs/imgs/dots.png);
+  background-repeat: repeat;
+  position: absolute;
+  top: 75%;
+  left: 41%;
+}
+#Testimonials{
+  background-color: #F7F7F7;
+}
+.carousel-item{
+  border-radius: 50%;
+}
+.carousel-item img{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+#carouselExampleIndicators{
+  height: 50vh;
+}
+.carousel-indicators button{
+  width: 10px !important;
+  height: 10px !important;
+  border-radius:50%;
+  background-color: #d6d6d6 !important;
+}
+.carousel-indicators button.active{
+  background-color: #869791 !important;
+}
+.carousel-indicators button:hover{
+  background-color: #869791 !important;
+}
+#details .inner #p_1{
+  font-weight: 900 !important;
+}
+#our_team{
+  background-color: #F7F7F7;
+}
+#our_team .card-body{
+  background-color: #5B5B5B;
+}
+#our_team .card .card_top:hover #cm{
+  transform: scale(1.2);
+}
+#our_team .card:hover #ly{
+  transform: scale(1) !important;
+  opacity: 90% !important;
+  transform: rotateY(0deg) !important;
+}
+#our_team .card img{
+  transition: all .4s;
+}
+#our_team .card .layer{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  height: 77% !important;
+  background-color: #fff;
+  opacity: 0%;
+  transform: scale(.4);
+  transition: all 0.5s;
+  transform: rotateY(180deg)
+}
+.svg-inline--fa:hover{
+  border: black solid 1px !important;
+  background-color: #fff !important;
+  color: black !important;
+}
+#contact .npt input{
+  background-color: #F4F4F4 !important;
+  border-radius: 5px;
+  border-color: transparent;
+  padding: 5px;
+  width: 550px !important;
+  margin-top: 20px;
+}
+#ms{
+  margin-top: 20px;
+  background-color: #F4F4F4 !important;
+  border-radius: 5px;
+  border-color: transparent;
+  width: 98%!important;
+  padding-bottom: 150px !important;
+}
+#contact .svg-inline--fa:hover{
+  border: black solid 1px !important;
+  background-color: black !important;
+  color: #fff !important;
+}
+#sbm:hover {
+  background-color: #fff !important;
+  color: black !important;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
+  border-bottom: 3px white solid;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+#navbar-example{
+  position: fixed !important;
+  background-color: rgba(0,0, 0, 0.5) !important;
+  z-index: 50;
+}
+
+
+
+
+@media (min-width: 760px) {
+  #home h6 {
+    font-size: 50px;
+    margin-top: 20px;
+  }
+  #services .container{
+    padding-left: 90px !important;
+    padding-right: 90px !important;
+}
+ #portfolio .container{
+  padding-left: 90px !important;
+    padding-right: 90px !important;
+ }
+ .carousel-item p{
+  width: 75%;
+ }
+ #contact .npt{
+  display: flex;
+  justify-content: space-between;
+ }
+ #contact input{
+  margin-left: 30px !important;
+}
+}
+@media (max-width: 760px) {
+  #about .inner_2 {
+    margin-top: 20px;
+    position: absolute;
+    right: 5px;
+  }
+  #our_team .container{
+    padding-left: 90px !important;
+}
+  #portfolio .container{
+    padding-left: 90px !important;
+}
+}
